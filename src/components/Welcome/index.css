@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+}
+.bg-container {
+  background-color: #1e293b;
+  min-height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  font-family: 'Bree Serif';
+  font-size: 45px;
+  font-weight: 600;
+  color: #f0bb03;
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 90px;
+  }
+}
+.description {
+  font-family: 'Bree Serif';
+  font-size: 24px;
+  font-weight: 600;
+  color: #ffffff;
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .description {
+    font-size: 48px;
+  }
+}
+.button {
+  background-color: #ffffff;
+  color: #000000;
+  padding: 15px;
+  border-radius: 12px;
+  border-width: 0px;
+  border-style: solid;
+  font-family: 'Bree Serif';
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  outline: none;
+}
+@media screen and (min-width: 768px) {
+  .button {
+    font-size: 24px;
+  }
+}
